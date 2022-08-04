@@ -85,15 +85,14 @@ IstifdeQ.addEventListener("click", () => {
     istifade.classList.add("active");
 });
 
-// window.addEventListener("scroll", () => {
-//     let nav = document.querySelector("nav");
-//     let cposition = nav.getBoundingClientRect().top + 1;
-//     let sposition = window.innerHeight / 1;
-//     if (cposition < sposition) {
-//         nav.classList.add("active")
-//     } else {
-//         nav.classList.remove("active")
-//     }
-
-
-// });
+$(document).ready(function() {
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        let nav = document.querySelector("nav");
+        if (scroll > 10) {
+            nav.classList.add("active");
+        } else {
+            nav.classList.remove("active");
+        }
+    })
+})

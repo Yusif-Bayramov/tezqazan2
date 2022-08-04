@@ -3,14 +3,15 @@
         position: relative;
     }
     
-    nav.active {}
+    nav.active {
+        background: linear-gradient(112.87deg, #73D0B1 0%, #2FBDBD 100%);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
     
     nav {
         width: 100%;
         position: fixed;
-        background: linear-gradient(112.87deg, #73D0B1 0%, #2FBDBD 100%);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
         top: 0;
         display: flex;
         flex-wrap: wrap;
