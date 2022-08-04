@@ -1,0 +1,115 @@
+.form-nav {
+    position: static;
+}
+
+#main2 {
+    width: 100%;
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card1 {
+        width: 814px;
+        height: 670px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        border-radius: 10px;
+        gap: 40px;
+        .img {
+            padding: 10px;
+            width: 280px;
+            height: 670px;
+            background-image: url(../img/formbg.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            .geri-icon {
+                background-color: #fff;
+                color: #333333;
+                padding: 5px 10px;
+                border-radius: 50%;
+                text-align: center;
+            }
+        }
+        .text {
+            padding: 0 20px;
+        }
+        h1 {
+            font-weight: 600;
+            font-size: 45.2036px;
+            line-height: 55px;
+            letter-spacing: 0.05em;
+            color: #ffffff;
+            margin-bottom: 1rem;
+        }
+        h2 {
+            font-weight: 500;
+            font-size: 22.6018px;
+            line-height: 28px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #ffffff;
+            margin-bottom: 1rem;
+        }
+        .btn-c {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 5rem;
+        }
+        .btn {
+            border: none;
+            padding: 15px 55px;
+            border-radius: 50px;
+            color: #ffffff;
+            transition: all .3 ease-in-out;
+            font-weight: 700;
+            font-size: 11.9768px;
+            line-height: 15px;
+            text-align: center;
+            background: linear-gradient(180deg, #A257FE 0%, #D776FF 100%);
+            /* identical to box height */
+            letter-spacing: 0.05em;
+            &:hover {
+                opacity: .7;
+            }
+        }
+        .form-group {
+            label {
+                color: #ffffff;
+            }
+            small {
+                color: #fff;
+            }
+            .form-number {
+                display: flex;
+                align-items: center;
+                border-bottom: 1px solid rgb(255, 255, 255);
+                span {
+                    color: #fff;
+                    font-weight: 600;
+                }
+            }
+            input {
+                background-color: transparent;
+                border: none;
+                outline: none;
+                border-radius: 0;
+                font-weight: 500;
+                color: rgb(255, 255, 255);
+                &:invalid {
+                    color: rgb(255, 0, 0);
+                }
+                &:focus {
+                    outline: none;
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}
