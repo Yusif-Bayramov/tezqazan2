@@ -84,3 +84,16 @@ IstifdeQ.addEventListener("click", () => {
     accordion.classList.remove("active");
     istifade.classList.add("active");
 });
+
+// window.addEventListener("scroll", () => {
+//     let nav = document.querySelector("nav");
+//     let cposition = nav.getBoundingClientRect().top + 1;
+//     let sposition = window.innerHeight / 1;
+//     if (cposition < sposition) {
+//         nav.classList.add("active")
+//     } else {
+//         nav.classList.remove("active")
+//     }
+
+
+// });
