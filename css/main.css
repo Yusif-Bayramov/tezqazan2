@@ -164,12 +164,9 @@ nav .dropbtn.active {
 }
 
 body {
-  background-image: url(../img/BG.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 830px;
+  background: rgb(115, 208, 177);
+  background: linear-gradient(112deg, rgb(115, 208, 177) 0%, rgb(47, 189, 189) 100%);
+  background-attachment: fixed;
 }
 
 #header-content {
