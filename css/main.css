@@ -164,9 +164,10 @@ nav .dropbtn.active {
 }
 
 body {
-  background: linear-gradient(112.87deg, #73D0B1 0%, #2FBDBD 100%);
+  background-image: url(../img/BG.jpg);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   width: 100%;
 }
@@ -329,6 +330,7 @@ body {
 #accordion {
   display: none;
   padding-bottom: 10px;
+  height: 700px;
 }
 #accordion .accordion-header {
   cursor: pointer;
