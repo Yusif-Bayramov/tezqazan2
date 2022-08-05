@@ -1,7 +1,3 @@
-html {
-    height: 100%;
-}
-
 body {
     background-image: url(../img/BG.jpg);
     background-position: center;
@@ -9,7 +5,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
-    margin-bottom: 0;
+    z-index: 100;
 }
 
 #header-content {
