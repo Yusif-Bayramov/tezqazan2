@@ -73,6 +73,7 @@
 #accordion {
     display: none;
     width: 100%;
+    height: 100%;
     margin-left: 50px;
     .transition,
     ul li i:before,
@@ -177,6 +178,7 @@
         position: absolute;
         cursor: pointer;
         width: 100%;
+        height: 100%;
         z-index: 1;
         opacity: 0;
     }
