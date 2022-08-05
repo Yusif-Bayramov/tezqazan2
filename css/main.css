@@ -166,7 +166,6 @@ nav .dropbtn.active {
 body {
   background: linear-gradient(112.87deg, #73D0B1 10%, #2FBDBD 100%);
   background-repeat: no-repeat;
-  background-attachment: fixed;
   width: 100%;
   height: 100%;
 }
@@ -769,7 +768,6 @@ body {
 
   #accordion {
     margin-left: 0;
-    margin-top: 15px;
   }
   #accordion ul li h2 {
     font-size: 16px;
