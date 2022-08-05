@@ -144,3 +144,11 @@ function resizeActiveAccordionBody() {
 window.addEventListener("resize", function() {
     resizeActiveAccordionBody();
 });
+let navbar = document.querySelectorAll(".nav-items li a")
+
+navbar.forEach(element => {
+    element.addEventListener("click", function() {
+        navbar.forEach(nav => nav.classList.remove(("active")))
+        this.classList.add("active")
+    });
+});
