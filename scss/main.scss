@@ -24,6 +24,15 @@
     background-color: #2FBDBD;
 }
 
+.lsks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+        margin-right: 150px;
+    }
+}
+
 ul {
     list-style: none;
 }

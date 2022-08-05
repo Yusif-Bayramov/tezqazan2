@@ -46,7 +46,7 @@
             color: #843ADE;
         }
         .logo a {
-            font-size: 30px;
+            font-size: 50px;
             font-weight: 600;
             letter-spacing: -1px;
             color: rgb(255, 255, 255);
@@ -63,48 +63,67 @@
         .cancel-icon {
             display: none;
         }
-        .dropdown {
-            margin-right: 38px;
-            i {
-                color: #fff;
-            }
-            img {
-                width: 35px;
-                height: 35px;
-            }
-            .az {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                cursor: pointer;
-                img {
-                    margin-right: 3px;
-                }
-            }
-            .rus {
-                cursor: pointer;
-            }
-        }
-        .dropbtn {
-            cursor: pointer;
-            transition: all .35s ease-in-out;
-        }
-        .dropdown {
-            position: relative;
-            display: inline-block;
-        }
-        .dropdown-content {
+        .down1 {
             display: none;
-            position: absolute;
-            margin-top: 6px;
         }
-        .dropdown a:hover {
-            background-color: #ddd;
+    }
+    
+    .dropdown {
+        margin-right: 38px;
+        i {
+            color: #fff;
         }
-        .show {
-            display: block;
+        img {
+            width: 35px;
+            height: 35px;
         }
-        .dropbtn.active {
-            transform: rotate(180deg);
+        .az {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            img {
+                margin-right: 3px;
+            }
         }
+        .rus {
+            cursor: pointer;
+        }
+    }
+    
+    .dropbtn {
+        cursor: pointer;
+        transition: all .35s ease-in-out !important;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        margin-top: 6px;
+        transition: all .35s ease-in-out !important;
+    }
+    
+    .dropdown a:hover {
+        background-color: #ddd;
+    }
+    
+    .dropdown-content.show {
+        display: block;
+    }
+    
+    .dropdown-content-2.show {
+        display: block;
+    }
+    
+    .dropbtn.active {
+        transform: rotate(180deg);
+    }
+    
+    .dropbtn-2.active {
+        transform: rotate(180deg);
     }

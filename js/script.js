@@ -26,15 +26,21 @@ for (let lis of li) {
 }
 
 let dropdown = document.querySelector(".dropbtn");
-let mydropdown = document.querySelector("#myDropdown");
+let mydropdown = document.querySelector(".dropdown-content");
+
 dropdown.addEventListener("click", () => {
     mydropdown.classList.toggle("show")
     dropdown.classList.toggle("active")
 });
-let rus = document.querySelector(".rus");
-rus.addEventListener("click", () => {
-    console.log("aa")
-})
+
+let dropdown2 = document.querySelector(".dropbtn-2");
+let mydropdown2 = document.querySelector(".dropdown-content-2");
+dropdown2.addEventListener("click", () => {
+    mydropdown2.classList.toggle("show")
+    dropdown2.classList.toggle("active")
+});
+
+
 window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
         var dropdowns = document.getElementsByClassName("dropdown-content");

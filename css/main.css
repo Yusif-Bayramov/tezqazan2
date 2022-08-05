@@ -24,6 +24,15 @@
   background-color: #2FBDBD;
 }
 
+.lsks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lsks .logo {
+  margin-right: 150px;
+}
+
 ul {
   list-style: none;
 }
@@ -121,7 +130,7 @@ nav .nav-items li a.active {
   color: #843ADE;
 }
 nav .logo a {
-  font-size: 30px;
+  font-size: 50px;
   font-weight: 600;
   letter-spacing: -1px;
   color: rgb(255, 255, 255);
@@ -181,6 +190,9 @@ nav .show {
 }
 nav .dropbtn.active {
   transform: rotate(180deg);
+}
+nav .down1 {
+  display: none;
 }
 
 .bg {
@@ -455,6 +467,16 @@ nav .dropbtn.active {
 
 .form-nav {
   position: static;
+  width: 100%;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.form-nav .logo {
+  width: 100%;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 #main2 {
@@ -572,6 +594,14 @@ nav .dropbtn.active {
     font-size: 11.9717px;
     line-height: 15px;
     letter-spacing: 0.05em;
+  }
+
+  .down1 {
+    display: inline-block !important;
+  }
+
+  .down2 {
+    display: none !important;
   }
 
   nav {
@@ -742,6 +772,9 @@ nav .cancel-icon {
     font-size: 35px;
   }
 
+  #main2 {
+    margin-top: 50px;
+  }
   #main2 .card1 {
     width: 280px;
     height: 620px;

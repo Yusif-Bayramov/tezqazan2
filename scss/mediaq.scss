@@ -4,6 +4,12 @@
             line-height: 15px;
             letter-spacing: 0.05em;
         }
+        .down1 {
+            display: inline-block !important;
+        }
+        .down2 {
+            display: none !important;
+        }
         nav {
             width: 100%;
             padding: 0 10px;
@@ -159,21 +165,19 @@
     }
     
     @media (max-width: 500px) {
-        nav {
-            .dropdown {
-                margin-right: 0;
-            }
-            .menu-icon,
-            .cancel-icon {
-                margin: 0 10px;
-                font-size: 16px;
-            }
-            .logo a {
-                font-size: 20px;
-            }
-            form {
-                right: 20px;
-            }
+        .dropdown {
+            margin-right: 0;
+        }
+        .menu-icon,
+        .cancel-icon {
+            margin: 0 10px;
+            font-size: 16px;
+        }
+        .logo a {
+            font-size: 20px;
+        }
+        form {
+            right: 20px;
         }
         #head {
             .head-container {
@@ -183,6 +187,7 @@
             }
         }
         #main2 {
+            margin-top: 50px;
             .card1 {
                 width: 280px;
                 height: 620px;
