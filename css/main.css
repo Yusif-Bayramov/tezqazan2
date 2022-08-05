@@ -164,8 +164,7 @@ nav .dropbtn.active {
 }
 
 body {
-  background: linear-gradient(112.87deg, #73D0B1 0%, #2FBDBD 100%);
-  background-attachment: fixed;
+  background-color: #C22379;
   width: 100%;
 }
 
