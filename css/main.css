@@ -166,6 +166,7 @@ nav .dropbtn.active {
 body {
   background: linear-gradient(112.87deg, #73D0B1 10%, #2FBDBD 100%);
   background-repeat: no-repeat;
+  background-attachment: fixed;
   width: 100%;
   height: 100%;
 }
@@ -434,7 +435,7 @@ body {
   position: absolute;
   cursor: pointer;
   width: 100%;
-  height: 100%;
+  height: 100px;
   z-index: 1;
   opacity: 0;
 }
