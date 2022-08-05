@@ -164,9 +164,10 @@ nav .dropbtn.active {
 }
 
 body {
-  background: rgb(115, 208, 177);
-  background: linear-gradient(112deg, rgb(115, 208, 177) 0%, rgb(47, 189, 189) 100%);
-  background-attachment: fixed;
+  background-image: url(../img/BG.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #header-content {
@@ -175,6 +176,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 10px;
   /*carosel*/
 }
 #header-content .container {
@@ -327,7 +329,6 @@ body {
 #accordion {
   display: none;
   padding-bottom: 10px;
-  height: 700px;
 }
 #accordion .accordion-header {
   cursor: pointer;
