@@ -147,52 +147,68 @@ nav .menu-icon span,
 nav .cancel-icon {
   display: none;
 }
-nav .dropdown {
+nav .down1 {
+  display: none;
+}
+
+.dropdown {
   margin-right: 38px;
 }
-nav .dropdown i {
+.dropdown i {
   color: #fff;
 }
-nav .dropdown img {
+.dropdown img {
   width: 35px;
   height: 35px;
 }
-nav .dropdown .az {
+.dropdown .az {
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
 }
-nav .dropdown .az img {
+.dropdown .az img {
   margin-right: 3px;
 }
-nav .dropdown .rus {
+.dropdown .rus {
   cursor: pointer;
 }
-nav .dropbtn {
+
+.dropbtn {
   cursor: pointer;
-  transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out !important;
 }
-nav .dropdown {
+
+.dropdown {
   position: relative;
   display: inline-block;
 }
-nav .dropdown-content {
+
+.dropdown-content {
   display: none;
   position: absolute;
   margin-top: 6px;
+  transition: all 0.35s ease-in-out !important;
 }
-nav .dropdown a:hover {
+
+.dropdown a:hover {
   background-color: #ddd;
 }
-nav .show {
+
+.dropdown-content.show {
   display: block;
 }
-nav .dropbtn.active {
+
+.dropdown-content-2.show {
+  display: block;
+}
+
+.dropbtn.active {
   transform: rotate(180deg);
 }
-nav .down1 {
-  display: none;
+
+.dropbtn-2.active {
+  transform: rotate(180deg);
 }
 
 .bg {
@@ -441,7 +457,7 @@ nav .down1 {
   opacity: 0.7;
 }
 #istifadeQaydlari .istfade-text {
-  width: 630px;
+  width: 550px;
   height: 484px;
   background: linear-gradient(119.58deg, rgba(129, 57, 185, 0.8) 0%, rgba(35, 127, 194, 0.8) 98.62%);
   border-radius: 10px;
@@ -753,18 +769,21 @@ nav .down1 {
   }
 }
 @media (max-width: 500px) {
-  nav .dropdown {
+  .dropdown {
     margin-right: 0;
   }
-  nav .menu-icon,
-nav .cancel-icon {
+
+  .menu-icon,
+.cancel-icon {
     margin: 0 10px;
     font-size: 16px;
   }
-  nav .logo a {
+
+  .logo a {
     font-size: 20px;
   }
-  nav form {
+
+  form {
     right: 20px;
   }
 
