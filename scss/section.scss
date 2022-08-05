@@ -72,6 +72,7 @@
 
 #accordion {
     display: none;
+    padding-bottom: 10px;
     .accordion-header {
         cursor: pointer;
         color: black;
@@ -92,6 +93,7 @@
         max-height: 0;
         overflow: hidden;
         background-color: #fff;
+        ;
     }
     .accordion-body p {
         padding: 1rem 1.5rem;
