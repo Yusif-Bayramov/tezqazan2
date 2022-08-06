@@ -662,6 +662,9 @@ nav .down1 {
   nav .logo {
     text-align: center;
   }
+  nav .logo a {
+    font-size: 30px;
+  }
   nav .menu-icon {
     display: block;
     transition: transform 0.3s ease-in-out;
